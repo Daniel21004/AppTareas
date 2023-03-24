@@ -7,7 +7,6 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { TareasComponent } from './components/tareas/tareas.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { AlertComponent } from './components/alert/alert.component';
 
 
 
@@ -15,8 +14,7 @@ import { AlertComponent } from './components/alert/alert.component';
   declarations: [
     AppComponent,
     NavbarComponent,
-    TareasComponent,
-    AlertComponent
+    TareasComponent
   ],
   imports: [
     BrowserModule,
